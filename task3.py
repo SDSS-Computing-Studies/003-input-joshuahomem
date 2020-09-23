@@ -12,3 +12,14 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a=input("enter in variable a")
+b=input("enter in variable b")
+c=input("enter in variable c")
+a=float(a)
+b=float(b)
+c=float(c)
+value1=c-b
+value1=float(value1)
+value2=value1/a
+print(value2)
