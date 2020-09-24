@@ -18,5 +18,5 @@ volume=float(volume)
 import math
 value1=volume/(4/3)
 value2=value1/math.pi
-value3=value2**1/3
+value3=value2**(1.0/3)
 print(value3)
